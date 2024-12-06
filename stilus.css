@@ -1,0 +1,25 @@
+body {
+	background-color:  #ffffff;
+	font-size: 12px;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+
+}
+
+button {
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #00ccff; 
+  color: white;
+}

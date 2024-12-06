@@ -7,13 +7,37 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Különleges Macskák</title>
     <link rel="icon" type="image/png"  href="macska.jpg">
+	<link rel="stylesheet" href="stilus.css">
+	<style>
+#scot {
+
+	color: rgb(105, 175, 255);
+	background-color: rgb(0, 0, 0)
+}
+
+#savannah {
+	color: rgb(252, 248, 5);
+	background-color: rgb(56, 56, 56)
+}
+#bengali {
+	color: rgb(255, 0, 0);
+	background-color: rgb(0, 0, 0)
+}	
+
+.litag {
+	color: red
+}	
+
+	</style>
 
 </head>
 <body>
-
+	<button onclick="location.href='#scot'">Scottish Fold</button>
+	<button onclick="location.href='#savannah'">Savannah macska</button>
+	<button onclick="location.href='#bengali'">Bengáli macska</button>
 <h1>Különleges Macskák</h1>
 
-	<h2> Scottish Fold</h2>
+	<h2 id="scot"> Scottish Fold</h2>
 
 		<h3>Rövid leírás</h3>
 
@@ -22,16 +46,16 @@
 			</p>
 
 			<ul>
-				<li>Származás: Skócia</li>
+				<li class="litag">Származás: Skócia</li>
 				<li>Szőrzet: Rövid vagy hosszú, puha</li>
-				<li>Méret: Közepes</li>
+				<li class="litag">Méret: Közepes</li>
 				<li>Élettartam: 11-15 év</li>
-				<li>Természet: Nyugodt, barátságos</li>
+				<li class="litag">Természet: Nyugodt, barátságos</li>
 				<li>Különlegesség: Füleik egyedi genetikájuk eredménye</li>
 			</ul>
 			<img src="scottishfold.jpg" alt="Scottish Fold cica képe">
 	
-	<h2>Savannah macska</h2>
+	<h2 id="savannah">Savannah macska</h2>
 		
 		<h3>Rövid leírás</h3>
 		
@@ -41,14 +65,14 @@
 		
 			<ul>
 				<li>Származás: Egyesült Államok</li>
-				<li>Szőrzet: Rövid, vadmacska mintázatú</li>
+				<li class="litag">Szőrzet: Rövid, vadmacska mintázatú</li>
 				<li>Méret: Nagy</li>
-				<li>Élettartam: 12-20 év</li>
+				<li class="litag">Élettartam: 12-20 év</li>
 				<li>Természet: Aktív, hűséges</li>
-				<li>Különlegesség: Szerváltól származik, ezért részben vadmacska-genetikát hordoz</li>
+				<li class="litag">Különlegesség: Szerváltól származik, ezért részben vadmacska-genetikát hordoz</li>
 			</ul>
 			<img src="savannah.jpg" alt="Savannah cica képe">
-	<h2>Bengáli macska</h2>
+	<h2 id="bengali">Bengáli macska</h2>
 		
 		<h3>Rövid leírás</h3>
 			
@@ -58,13 +82,13 @@
 			
 			<ul>
 				<li>Származás: Egyesült Államok</li>
-				<li>Szőrzet: Rövid, pöttyös vagy márványos mintázat</li>
+				<li class="litag">Szőrzet: Rövid, pöttyös vagy márványos mintázat</li>
 				<li>Méret: Közepes-nagy</li>
-				<li>Élettartam: 10-16 év</li>
+				<li class="litag">Élettartam: 10-16 év</li>
 				<li>Természet: Aktív, intelligens</li>
-				<li>Különlegesség: Imádja a vizet és a játékokat</li>
+				<li class="litag">Különlegesség: Imádja a vizet és a játékokat</li>
 			</ul>
-			<img src="bengáli.jpg" alt="Bengáli cica képe">
+			<img src="bengali.jpg" alt="Bengáli cica képe">
 
 	
 </body>
